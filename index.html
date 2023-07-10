@@ -1,57 +1,99 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><Trainbooking class="com"></Trainbooking></title>
+    <title>Train Booking</title>
     <link rel="stylesheet" href="style.css">
-    <header id="navbar"></div>
-<nav>
-<ul>
-    <i class="fas fa-home"></i>
-    <li><a href="#Home/">#Home</a></li>
-    <i class="fas fa-address-card"></i>
-    <li><a href="About">About</a></li>
-    <i class="fas fa-phone"></i>
-    <li><a href="Contact">Contact</a></li>
-    <i class="fas fa-star-half-alt"></i>
-    <li><a href="Reviews">Reviews</a></li>
-</ul>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-
-<form action="" class="search-form">
-    <input type="text" placeholder="search here...">
-    <button class="btn"><i class="fas fa-search"></i></button>
-</form>
-
-<button class="btn mic"><i class="fas fa-microphone"></i></button>
-
-<button class="btn user"><i class="fas fa-user"></i></button>
-
-
-
-</nav>
 </head>
-<body>
-    <img src="./train" alt="train">
-    <form>
+ <body>
+     <header id="navbar">
+        <nav>
+            <ul>
+                <i class="fas fa-home"></i>
+                <li><a href="#Home/">Home</a></li>
+                <i class="fas fa-address-card"></i>
+                <li><a href="About">About</a></li>
+                <i class="fas fa-phone"></i>
+                <li><a href="Contact">Contact</a></li>
+                <i class="fas fa-star-half-alt"></i>
+                <li><a href="Reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+
+
+
+    <form action="" class="search-form">
+        <input type="text" placeholder="Search here...">
+        <button class="btn"><i class="fas fa-search"></i></button>
+    </form>
+
+    <button class="btn mic"><i class="fas fa-microphone"></i></button>
+
+    <button class="btn user"><i class="fas fa-user"></i></button>
+
+    <img src="./train.jpg" alt="train">
+
+    <form id="myForm">
         <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" >
+        <input type="text" id="first-name" name="first-name">
       
         <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" >
+        <input type="text" id="last-name" name="last-name">
       
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" >
+        <input type="email" id="email" name="email">
       
         <label for="phone-number">Phone Number:</label>
-        <input type="tel" id="phone-number" name="phone-number" >
+        <input type="tel" id="phone-number" name="phone-number">
       
         <input type="submit" value="Submit">
-      </form>
-      
-
+    </form>
+    <section id="about">
+        <div class="container">
+            <h2><i class="fas fa-info-circle"></i> About</h2>
+            <p>Hello, welcome to the train booking website. This website was created to enable the students using the train to go to School to be able to purchase the train ticket on time.</p>
+            <p>The train's destination is only one which is the Flatiron School. The train passes through three places so that it could arrive at its destination. The train's departure from the first station is usually at 6:00 am in the morning.</p>
+            <p>The train arrives at the second pick-up destination between 7:00 and 7:30, and then it arrives at the third pick-up destination between 8:00 and 8:30. The train will arrive at the final destination, which is the school, at exactly 9:00 am.</p>
+            <p>For the price, it is usually very friendly and it doesn't fluctuate because this is a charity to the community website.</p>
+            <p><i class="fas fa-envelope"></i> trainbooking.com</p>
+        </div>
+    </section>
     
+    
+
+     <section id="Contact">
+        <div class="container">
+        
+            <h2>   <i class="fas fa-phone"></i>Contact</h2>
+            <p>You can reach us on various platforms to give us your reviews or ant suggestion that you have.</p>
+            <p>Please do not contact us if you do not have a geniune or good reason for contacting us. </p>
+            <p>You can find us on platforms such as :</p>
+            <p><i class="fab fa-instagram "></i> Instagram: @trainbooking</p>
+            <p><i class="fab fa-twitter"></i> Twitter: @trainbooking</p>
+            <p> <i class="fas fa-phone"></i>Tell : 0702101430</p>
+            
+    <p><i class="fas fa-star-half-alt">Reviews</i></p>
+    <form action="" class="Reviews">
+        <input type="text" placeholder="Reviews here...">
+        <button class="btn">Submit</button>
+    </form>
+
+        </div>
+    
+     </section>
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>

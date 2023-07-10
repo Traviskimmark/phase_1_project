@@ -1,0 +1,35 @@
+ol{
+    list-style: none;
+}
+#navbar nav  ul li{
+    padding: 10px;
+}
+
+#navbar nav  ul li a{
+display:flex;
+ padding: 10px;
+ text-decoration: none;
+ color: azure;
+ background-color: rgb(89, 80, 255);
+ border-radius: 5px;
+
+}
+#navbar nav ul {
+    justify-content: end;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    color: darkblue;
+    list-style: none;
+    margin-left: 40px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+}
+nav li a:hover {
+    background-color: aqua;
+
+}
+img{
+    max-height: 600px;
+}
